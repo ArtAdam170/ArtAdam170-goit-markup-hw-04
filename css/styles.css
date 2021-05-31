@@ -37,8 +37,8 @@ img {
   --logo-color: #ffffff;
   --headfoot-color: #2f303a;
   --btn-background-color: #188ce8;
-  --team-background-color:#f5f4fa;
-  --fill-icon-color:#afb1b8;
+  --team-background-color: #f5f4fa;
+  --fill-icon-color: #afb1b8;
 }
 
 .active-page {
@@ -154,7 +154,11 @@ body {
 /*==========MAIN================*/
 /*about-section-------------------------------------------*/
 .about-section {
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url(../image/overlay.jpg);
   background-repeat: no-repeat;
   background-color: var(--headfoot-color);
@@ -273,7 +277,6 @@ body {
   margin-left: 30px;
   margin-top: 30px;
 }
-
 
 /*doing-END--------------------------------------------------*/
 
@@ -431,7 +434,6 @@ body {
   color: var(--accent-color);
 }
 
-
 .address-list {
   display: flex;
   flex-direction: column;
@@ -521,13 +523,10 @@ body {
 .works-btn:focus {
   color: var(--logo-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
-.btn-vse:hover,
-.btn-vse:focus {
-  color: var(--logo-color);
-  background-color: var(--btn-background-color);
-}
 /*work-btn-END---------------------------------------------------*/
 
 /*example-section------------------------------------------------*/
